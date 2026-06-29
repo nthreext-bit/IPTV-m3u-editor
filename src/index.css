@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar to mimic WPF / Windows Dark Theme */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3e3e4a;
+  border-radius: 4px;
+  border: 2px solid #1e1e24;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #505060;
+}
+
+/* Custom selection */
+::selection {
+  background-color: #007acc;
+  color: #ffffff;
+}
+
+/* Grid Cell focus visual styling */
+.grid-cell-focus:focus-within {
+  outline: 2px solid #007acc;
+  outline-offset: -2px;
+}
+
+/* Custom fade effects and smooth animations */
+.transition-all-desktop {
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+

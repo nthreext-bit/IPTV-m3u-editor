@@ -1,0 +1,6 @@
+{
+  "name": "IPTV M3U Playlist Editor",
+  "description": "A powerful IPTV M3U/M3U8 playlist editor with a spreadsheet-like grid, supporting list merging, duplicate link removal, row reordering, and instant filtering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
